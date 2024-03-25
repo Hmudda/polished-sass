@@ -1,15 +1,14 @@
 {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Polished Beauty Bar",
+    "email": "polishedbeautybarandspa@gmail.com",
+    "phoneForTel": "405-217-0559",
+    "phoneFormatted": "(405) 217-0559",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "lineOne": "111 Hal Muldrow Dr",
+        "city": "Norman",
+        "state": "OK",
+        "zip": "73072",
+        "mapLink": "https://maps.app.goo.gl/VS8KNXedTeB48fgP7"
     },
-    "domain": "https://www.codestitch.app"
+    "domain": "https://www.polishedbeautybar.com"
 }
