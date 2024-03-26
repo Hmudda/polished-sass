@@ -51,6 +51,7 @@
     color: var(--bodyTextColor);
   }
   .cs-button-solid {
+    border-radius: 8px;
     font-size: 1rem;
     font-weight: bold;
     line-height: 3.125em;
@@ -156,6 +157,10 @@
   p,
   li {
     color: #353535;
+  }
+  a,
+  button {
+    border-radius: 8px;
   }
   a:hover,
   button:hover {
@@ -485,8 +490,15 @@
     background-color: var(--dark);
   }
   body.dark-mode #cs-navigation .cs-logo {
-    /* makes it white */
-    filter: grayscale(1) brightness(1000%);
+    background: url("../svgs/polished-logo-white.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 61%;
+    height: 32px;
+  }
+  body.dark-mode #cs-navigation .cs-logo img {
+    display: none;
   }
   body.dark-mode #cs-navigation .cs-line {
     background-color: #fff;
@@ -782,8 +794,13 @@
     background-color: var(--dark);
   }
   body.dark-mode #cs-navigation .cs-logo {
-    /* makes it turn white */
-    filter: grayscale(1) brightness(1000%);
+    background: url("../svgs/polished-logo-white.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  body.dark-mode #cs-navigation .cs-logo img {
+    display: none;
   }
   body.dark-mode #cs-navigation .cs-li-link {
     color: var(--bodyTextColorWhite);
@@ -1103,6 +1120,7 @@
     justify-content: center;
   }
   #footer .right-section .cs-button-solid {
+    border-radius: 8px;
     width: 15.625rem;
     height: 3.3125rem;
     margin: 0;
@@ -1204,7 +1222,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #footer {
-    background: #061623;
+    background: #151310;
   }
 }
 /*-- -------------------------- -->
@@ -1276,6 +1294,7 @@
     color: #f7f7f7;
   }
   #hero-929 .cs-button-solid {
+    border-radius: 8px;
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -1496,6 +1515,7 @@
     align-items: center;
   }
   #services-879 .cs-button-solid {
+    border-radius: 8px;
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -1736,6 +1756,7 @@
     margin-bottom: 2rem;
   }
   #sbs-1591 .cs-button-solid {
+    border-radius: 8px;
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -1789,6 +1810,9 @@
     top: 0;
     left: 0;
   }
+  #sbs-1591 .cs-picture1 img {
+    border-radius: 8px;
+  }
   #sbs-1591 .cs-picture1 {
     /* the percentage heights allow them to be responsive to the height of the parent cs-image-group. On desktop, when the felxbox is set to aling-items: stretch, the cs-image group will stretch to fill the height of the parent container. So when you add more content to the cs-content group and make it taller, the cs-image group will get taller with it and every image will stretch with the parent, making this entire group responsive to the changing amounts of content next to it */
     width: 25.8125em;
@@ -1797,12 +1821,16 @@
     left: 0;
     z-index: -1;
   }
+  #sbs-1591 .cs-picture2 img {
+    border-radius: 8px;
+  }
   #sbs-1591 .cs-picture2 {
     width: 25.8125em;
     height: 44.585987%;
     bottom: 0;
     right: 0;
     z-index: 10;
+    border-radius: 8px;
   }
 }
 /* Tablet - 768px */

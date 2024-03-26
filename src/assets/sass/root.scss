@@ -62,6 +62,7 @@
 
     // Button - can be replaced using CodeStitch's "Button" Stitches
     .cs-button-solid {
+        border-radius: 8px;
         font-size: calc(16 / 16 * 1rem);
         font-weight: bold;
         line-height: calc(50 / 16 * 1em);
@@ -196,6 +197,7 @@
 
     a,
     button {
+        border-radius: 8px;
         &:hover {
             cursor: pointer;
         }
@@ -585,8 +587,16 @@
             background-color: var(--dark);
 
             .cs-logo {
-                /* makes it white */
-                filter: grayscale(1) brightness(1000%);
+                background: url("../svgs/polished-logo-white.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 61%;
+                height: 32px;
+                // filter: grayscale(1) brightness(1000%);
+            }
+            .cs-logo img{
+                display: none;
             }
 
             .cs-line {
@@ -945,8 +955,15 @@
             background-color: var(--dark);
 
             .cs-logo {
-                /* makes it turn white */
-                filter: grayscale(1) brightness(1000%);
+                background: url("../svgs/polished-logo-white.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                // filter: grayscale(1) brightness(1000%);
+
+            }
+            .cs-logo img{
+                display: none;
             }
 
             .cs-li-link {
@@ -1310,6 +1327,7 @@
             }
 
             .cs-button-solid {
+                border-radius: 8px;
                 width: calc(250 / 16 * 1rem);
                 height: calc(53 / 16 * 1rem);
                 margin: 0;
@@ -1439,7 +1457,8 @@
 @media only screen and (min-width: 0em) {
     body.dark-mode {
         #footer {
-            background: #061623;
+            // background: #061623;
+            background: #151310;
         }
     }
 }
@@ -1521,6 +1540,7 @@
         }
 
         .cs-button-solid {
+            border-radius: 8px;
             font-size: calc(16 / 16 * 1rem);
             /* 46px - 56px */
             line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -1779,6 +1799,7 @@
         }
 
         .cs-button-solid {
+            border-radius: 8px;
             font-size: calc(16 / 16 * 1rem);
             /* 46px - 56px */
             line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -2073,6 +2094,7 @@
         }
 
         .cs-button-solid {
+            border-radius: 8px;
             font-size: calc(16 / 16 * 1rem);
             /* 46px - 56px */
             line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -2134,6 +2156,9 @@
             }
         }
 
+        .cs-picture1 img{
+            border-radius: 8px;
+        }
         .cs-picture1 {
             /* the percentage heights allow them to be responsive to the height of the parent cs-image-group. On desktop, when the felxbox is set to aling-items: stretch, the cs-image group will stretch to fill the height of the parent container. So when you add more content to the cs-content group and make it taller, the cs-image group will get taller with it and every image will stretch with the parent, making this entire group responsive to the changing amounts of content next to it */
             width: calc(413 / 16 * 1em);
@@ -2142,13 +2167,16 @@
             left: 0;
             z-index: -1;
         }
-
+        .cs-picture2 img{
+            border-radius: 8px;
+        }
         .cs-picture2 {
             width: calc(413 / 16 * 1em);
             height: 44.585987%;
             bottom: 0;
             right: 0;
             z-index: 10;
+            border-radius: 8px;
         }
     }
 }
