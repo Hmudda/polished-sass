@@ -41,7 +41,7 @@
 	.st1{fill:#FFFFFF;}
 ]]></style><text
      xml:space="preserve"
-     style="font-size:166.667px;fill:#ffffff;fill-rule:evenodd"
+     style="font-size:166.667px;line-height:0;fill:#ffffff;fill-rule:evenodd;stroke:#cdaa6a;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
      x="-5.8333454"
      y="126.66692"
      id="text1"><tspan
@@ -49,6 +49,6 @@
        id="tspan1"
        x="-5.8333454"
        y="126.66692"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;font-family:'Antiqua Roman';-inkscape-font-specification:'Antiqua Roman, ';fill:#cdaa6a;fill-opacity:1">POLISHED <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;font-family:Decker;-inkscape-font-specification:Decker;fill:#000000;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;line-height:0;font-family:'Antiqua Roman';-inkscape-font-specification:'Antiqua Roman, ';fill:#cdaa6a;fill-opacity:1;stroke:#cdaa6a;stroke-width:5;stroke-dasharray:none;stroke-opacity:1">POLISHED <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:166.667px;line-height:0;font-family:Decker;-inkscape-font-specification:Decker;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
    id="tspan3">beauty bar</tspan></tspan></text></svg>
