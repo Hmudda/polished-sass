@@ -2,6 +2,7 @@
 var CSbody = document.querySelector('body');
 const CSnavbarMenu = document.querySelector('#cs-navigation');
 const CShamburgerMenu = document.querySelector('#cs-navigation .cs-toggle');
+const map = document.querySelector('#map-720')
 
 CShamburgerMenu.addEventListener('click', function () {
 	CShamburgerMenu.classList.toggle('cs-active');
@@ -31,3 +32,7 @@ for (const item of dropDowns) {
 	};
 	item.addEventListener('click', onClick);
 }
+
+map.addEventListener('click', function(){
+	window.open("https://maps.app.goo.gl/tEv9MPk9t6ZYBmAF8", '_blank').focus()
+})
